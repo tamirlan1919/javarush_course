@@ -15,4 +15,3 @@ def divide(a: int, b: int) -> float:
     else:
         return 'Делить на ноль нельзя'
 
-print(divide(4, 0))
