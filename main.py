@@ -5,6 +5,7 @@ def add(a: int, b: int) -> int:
 
 
 def minus(a: int, b: int) -> int:
+    """Функция проверяет разность"""
     return a - b
 
 
