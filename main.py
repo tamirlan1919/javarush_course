@@ -9,4 +9,9 @@ def minus(a: int, b: int) -> int:
 
 
 def divide(a: int, b: int) -> float:
-    return a / b
+    if b != 0:
+        return a / b
+    else:
+        return 'Делить на ноль нельзя'
+
+print(divide(4, 0))
